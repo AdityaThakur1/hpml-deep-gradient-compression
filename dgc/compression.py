@@ -25,14 +25,12 @@ class DGCCompressor:
         self.fp16_values = fp16_values
         self.int32_indices = int32_indices
 
-        self.base_compress_ratio = self.compress_ratio = \
-            compress_ratio if compress_ratio <= 1.0 else 1.0 / compress_ratio
+        self.base_compress_ratio = self.compress_ratio = compress_ratio if compress_ratio <= 1.0 else 1.0 / compress_ratio
         self.memory = Memory if memory is None else memory
         self.warmup_epochs = warmup_epochs
         if self.warmup_epochs > 0:
             if warmup_coeff is None:
-                self.warmup_coeff = self.base_compress_ratio \
-                                    ** (1. / (self.warmup_epochs + 1))
+                self.warmup_coeff = self.base_compress_ratio ** (1. / (self.warmup_epochs + 1))
             else:
                 if isinstance(warmup_coeff, (tuple, list)):
                     assert len(warmup_coeff) >= self.warmup_epochs
@@ -82,7 +80,7 @@ class DGCCompressor:
                 num_samples = numel
             top_k_samples = int(math.ceil(num_samples * self.compress_ratio))
             num_selects = int(math.ceil(numel * self.compress_ratio))
-            self.attributes[name] = (numel, shape, num_selects, num_samples, top_k_samples, sample_stride)
+            self.attributes[name] = (numel , shape, num_selects, num_samples, top_k_samples, sample_stride)
             if hvd.rank() == 0:
                 print(f'   {name:<25}: transmit {num_selects} / {numel} elements of shape {shape}\n'
                       f'   {" " * 25}  threshold {top_k_samples} / {num_samples} samples'
@@ -105,6 +103,7 @@ class DGCCompressor:
                 print(f'update compress ratio: {compress_ratio}')
             self.compress_ratio = compress_ratio
             self.initialize(self.attributes.items())
+        return compress_ratio
 
     def _sparsify(self, tensor, name):
         tensor = tensor.view(-1)

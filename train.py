@@ -3,6 +3,7 @@ import math
 import os
 import random
 import shutil
+import sys
 
 import numpy as np
 import horovod.torch as hvd
@@ -131,6 +132,7 @@ def main():
     if configs.train.dgc:
         printr(f'\n==> initializing dgc compression')
         configs.train.compression.memory = configs.train.compression.memory()
+        printr(f'\nCompression memory = {sys.getsizeof(configs.train.compression.memory)}')
         compression = configs.train.compression()
         compression.memory.initialize(model.named_parameters())
         cpr_parameters = {}
@@ -207,7 +209,8 @@ def main():
                 f'/{configs.train.num_epochs}')
 
         if configs.train.dgc:
-            compression.warmup_compress_ratio(current_epoch)
+            compress_ratio_e = compression.warmup_compress_ratio(current_epoch)
+            writer.add_scalar('Compression/c_ratio_epoch', compress_ratio_e, current_epoch)
 
         train(model=model, loader=loaders['train'],
               device=configs.device, epoch=current_epoch, 
@@ -241,7 +244,7 @@ def main():
             print('')
             for k, meter in meters.items():
                 print(f'[{k}] = {meter:2f}')
-                writer.add_scalar(k, meter, num_inputs)
+                writer.add_scalar(k, meter, current_epoch)
 
         checkpoint = {
             'epoch': current_epoch,
@@ -300,7 +303,7 @@ def train(model, loader, device, epoch, sampler, criterion, optimizer,
         loss = hvd.allreduce(loss, name='loss').item()
         if writer is not None:
             num_inputs += step_size * hvd.size()
-            writer.add_scalar('loss/train', loss, num_inputs)
+            writer.add_scalar('loss/train', loss, epoch)
 
 
 def evaluate(model, loader, device, meters, split='test', quiet=True):
