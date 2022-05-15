@@ -70,4 +70,4 @@ Below are the plots for Train Accuracy and Test Accuracy for Baseline Model and 
 
 ![Alt text](https://github.com/AdityaThakur1/hpml-deep-gradient-compression/blob/master/data/test_acc.JPG?raw=true "Test Accuracy on 200 Epochs")
 
-![Alt text](https://github.com/AdityaThakur1/hpml-deep-gradient-compression/blob/master/data/test_acc.JPG?raw=true "Train Accuracy on 200 Epochs")
+![Alt text](https://github.com/AdityaThakur1/hpml-deep-gradient-compression/blob/master/data/train_acc.JPG?raw=true "Train Accuracy on 200 Epochs")
