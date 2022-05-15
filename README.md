@@ -1,4 +1,5 @@
 # Gradient Compression with Delayed Gradient Updates
+*Authors:* Aditya Thakur (AT4932) , Swapan Jain (SJ2594)
 
 ## Overview
 
