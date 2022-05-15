@@ -65,3 +65,9 @@ horovodrun -np 1 python train.py --configs configs/cifar/resnet20.py configs/dgc
 | Baseline: ResNet-20 (No Compression)| 78 Epochs  | 11.5 minutes|88.68% | 95.4% | NA |1 MB |
 | ResNet-20 With Gradient Compression  | 143 Epochs |  21 minutes | 85.47% |92.5% | 0.001 |1 KB |
 
+## Plots
+Below are the plots for Train Accuracy and Test Accuracy for Baseline and Model with Gradient Compression.
+
+![Alt text](https://github.com/AdityaThakur1/hpml-deep-gradient-compression/blob/master/data/test_acc.JPG?raw=true "Test Accuracy on 200 Epochs")
+
+![Alt text](https://github.com/AdityaThakur1/hpml-deep-gradient-compression/blob/master/data/test_acc.JPG?raw=true "Train Accuracy on 200 Epochs")
