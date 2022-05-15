@@ -1,3 +1,7 @@
+# Gradient Compression with Delayed Gradient Updates
+
+## Overview
+
 ## Training
 We use [Horovod](https://github.com/horovod/horovod) to run distributed training:
 - run on a machine with *N* GPUs,
