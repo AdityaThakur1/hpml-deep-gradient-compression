@@ -1,4 +1,5 @@
 # Gradient Compression with Delayed Gradient Updates
+*Authors:* Aditya Thakur (at4932) , Swapan Jain (sj2594) 
 
 ## Overview
 - Gradient communication in distributed training accounts for significant bandwidth and limits scalability.
@@ -46,22 +47,14 @@ The code has been adopted from https://github.com/synxlin/deep-gradient-compress
 
 ## Training
 We use [Horovod](https://github.com/horovod/horovod) to run distributed training:
-- run on a machine with *N* GPUs,
+- run on a machine with 1 GPU without gradient compression (Baseline),
+ resnet-20 on cifar-10 dataset with 1 GPU:
 ```bash
-horovodrun -np N python train.py --configs [config files]
+horovodrun -np 1 python train.py --configs configs/cifar/resnet20.py --suffix no_compression --device gpu
 ```
-e.g., resnet-20 on cifar-10 dataset with 8 GPUs:
+- run on a machine with 1 GPU with gradient compression ,
+ resnet-20 on cifar-10 dataset with 1 GPU:
 ```bash
-# fp16 values, int32 indices
-# warmup coeff: [0.25, 0.063, 0.015, 0.004, 0.001] -> 0.001
-horovodrun -np 8 python train.py --configs configs/cifar/resnet20.py \
-    configs/dgc/wm5.py configs/dgc/fp16.py configs/dgc/int32.py
+horovodrun -np 1 python train.py --configs configs/cifar/resnet20.py configs/dgc/wm5.py configs/dgc/fp16.py configs/dgc/int32.py --suffix with_compression --device gpu
 ```
-- run on *K* machines with *N* GPUs each,
-```bash
-mpirun -np [K*N] -H server0:N,server1:N,...,serverK:N \
-    -bind-to none -map-by slot -x NCCL_DEBUG=INFO \
-    -x LD_LIBRARY_PATH -x PATH -mca pml ob1 \
-    -mca btl ^openib -mca btl_tcp_if_exclude docker0,lo \
-    python train.py --configs [config files]
 
