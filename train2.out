@@ -1,0 +1,191 @@
+[1,0]<stdout>:==> loading configs from ['configs/cifar/resnet20.py', 'configs/dgc/wm5.py', 'configs/dgc/fp16.py', 'configs/dgc/int32.py']
+[1,0]<stdout>:[train.save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np2
+[1,0]<stdout>:[seed] = 42
+[1,0]<stdout>:[data]
+[1,0]<stdout>:  [num_threads_per_worker] = 4
+[1,0]<stdout>:[train]
+[1,0]<stdout>:  [dgc] = True
+[1,0]<stdout>:  [compression]
+[1,0]<stdout>:    [func] = <class 'dgc.compression.DGCCompressor'>
+[1,0]<stdout>:    [compress_ratio] = 0.001
+[1,0]<stdout>:    [sample_ratio] = 0.01
+[1,0]<stdout>:    [strided_sample] = True
+[1,0]<stdout>:    [compress_upper_bound] = 1.3
+[1,0]<stdout>:    [compress_lower_bound] = 0.8
+[1,0]<stdout>:    [max_adaptation_iters] = 10
+[1,0]<stdout>:    [resample] = True
+[1,0]<stdout>:    [memory]
+[1,0]<stdout>:      [func] = <class 'dgc.memory.DGCSGDMemory'>
+[1,0]<stdout>:      [momentum] = 0.9
+[1,0]<stdout>:    [warmup_epochs] = 5
+[1,0]<stdout>:    [fp16_values] = True
+[1,0]<stdout>:    [int32_indices] = True
+[1,0]<stdout>:  [criterion]
+[1,0]<stdout>:    [func] = <class 'torch.nn.modules.loss.CrossEntropyLoss'>
+[1,0]<stdout>:  [optimizer]
+[1,0]<stdout>:    [func] = <class 'dgc.optim.sgd.DGCSGD'>
+[1,0]<stdout>:    [momentum] = 0.9
+[1,0]<stdout>:    [lr] = 0.1
+[1,0]<stdout>:    [weight_decay] = 0.0001
+[1,0]<stdout>:  [schedule_lr_per_epoch] = True
+[1,0]<stdout>:  [warmup_lr_epochs] = 5
+[1,0]<stdout>:  [metric] = acc/test_top1
+[1,0]<stdout>:  [meters]
+[1,0]<stdout>:    [acc/{}_top1]
+[1,0]<stdout>:      [func] = <class 'torchpack.mtpack.meters.class_meter.TopKClassMeter'>
+[1,0]<stdout>:      [k] = 1
+[1,0]<stdout>:    [acc/{}_top5]
+[1,0]<stdout>:      [func] = <class 'torchpack.mtpack.meters.class_meter.TopKClassMeter'>
+[1,0]<stdout>:      [k] = 5
+[1,0]<stdout>:  [num_epochs] = 200
+[1,0]<stdout>:  [batch_size] = 128
+[1,0]<stdout>:  [scheduler]
+[1,0]<stdout>:    [func] = <class 'torch.optim.lr_scheduler.CosineAnnealingLR'>
+[1,0]<stdout>:    [T_max] = 195
+[1,0]<stdout>:  [optimize_bn_separately] = True
+[1,0]<stdout>:  [num_batches_per_step] = 1
+[1,0]<stdout>:  [save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np2
+[1,0]<stdout>:  [checkpoint_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np2/checkpoints/e{epoch}-r0.pth
+[1,0]<stdout>:  [latest_pth_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np2/checkpoints/latest-r0.pth
+[1,0]<stdout>:  [best_pth_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np2/checkpoints/best-r0.pth
+[1,0]<stdout>:[dataset]
+[1,0]<stdout>:  [func] = <class 'torchpack.mtpack.datasets.vision.cifar.CIFAR'>
+[1,0]<stdout>:  [root] = ./data/cifar10
+[1,0]<stdout>:  [num_classes] = 10
+[1,0]<stdout>:  [image_size] = 32
+[1,0]<stdout>:[model]
+[1,0]<stdout>:  [func] = <function resnet20 at 0x14ffce6a4dc0>
+[1,0]<stdout>:  [num_classes] = 10
+[1,0]<stdout>:[device] = cuda
+[1,0]<stdout>:
+[1,0]<stdout>:==> creating dataset "[func] = <class 'torchpack.mtpack.datasets.vision.cifar.CIFAR'>
+[1,0]<stdout>:[root] = ./data/cifar10
+[1,0]<stdout>:[num_classes] = 10
+[1,0]<stdout>:[image_size] = 32"
+[1,1]<stdout>:Files already downloaded and verified
+[1,0]<stdout>:Files already downloaded and verified
+[1,1]<stdout>:Files already downloaded and verified
+[1,0]<stdout>:Files already downloaded and verified
+[1,0]<stdout>:
+[1,0]<stdout>:==> loading dataset "{'num_workers': 4, 'pin_memory': True}""
+[1,0]<stdout>:
+[1,0]<stdout>:==> creating model "[func] = <function resnet20 at 0x14ffce6a4dc0>
+[1,0]<stdout>:[num_classes] = 10"
+[1,0]<stdout>:
+[1,0]<stdout>:==> creating optimizer "[func] = <class 'dgc.optim.sgd.DGCSGD'>
+[1,0]<stdout>:[momentum] = 0.9
+[1,0]<stdout>:[lr] = 0.2
+[1,0]<stdout>:[weight_decay] = 0.0001"
+[1,0]<stdout>:
+[1,0]<stdout>:==> creating compression "[func] = <class 'dgc.compression.DGCCompressor'>
+[1,0]<stdout>:[compress_ratio] = 0.001
+[1,0]<stdout>:[sample_ratio] = 0.01
+[1,0]<stdout>:[strided_sample] = True
+[1,0]<stdout>:[compress_upper_bound] = 1.3
+[1,0]<stdout>:[compress_lower_bound] = 0.8
+[1,0]<stdout>:[max_adaptation_iters] = 10
+[1,0]<stdout>:[resample] = True
+[1,0]<stdout>:[memory]
+[1,0]<stdout>:  [func] = <class 'dgc.memory.DGCSGDMemory'>
+[1,0]<stdout>:  [momentum] = 0.9
+[1,0]<stdout>:[warmup_epochs] = 5
+[1,0]<stdout>:[fp16_values] = True
+[1,0]<stdout>:[int32_indices] = True"
+[1,0]<stdout>:
+[1,0]<stdout>:==> initializing dgc compression
+[1,0]<stdout>:=> initializing dgc sgd memory
+[1,0]<stdout>:=> initializing dgc compressor
+[1,0]<stdout>:Warning: features.0.weight with 432 elements transmits 1 gradient element
+[1,0]<stdout>:   features.0.weight        : transmit 1 / 432 elements of shape [16, 3, 3, 3]
+[1,0]<stdout>:                              threshold 1 / 432 samples at stride 1
+[1,0]<stdout>:   features.3.conv1.weight  : transmit 3 / 2304 elements of shape [16, 16, 3, 3]
+[1,0]<stdout>:                              threshold 3 / 2304 samples at stride 1
+[1,0]<stdout>:   features.3.conv2.weight  : transmit 3 / 2304 elements of shape [16, 16, 3, 3]
+[1,0]<stdout>:                              threshold 3 / 2304 samples at stride 1
+[1,0]<stdout>:   features.4.conv1.weight  : transmit 3 / 2304 elements of shape [16, 16, 3, 3]
+[1,0]<stdout>:                              threshold 3 / 2304 samples at stride 1
+[1,0]<stdout>:   features.4.conv2.weight  : transmit 3 / 2304 elements of shape [16, 16, 3, 3]
+[1,0]<stdout>:                              threshold 3 / 2304 samples at stride 1
+[1,0]<stdout>:   features.5.conv1.weight  : transmit 3 / 2304 elements of shape [16, 16, 3, 3]
+[1,0]<stdout>:                              threshold 3 / 2304 samples at stride 1
+[1,0]<stdout>:   features.5.conv2.weight  : transmit 3 / 2304 elements of shape [16, 16, 3, 3]
+[1,0]<stdout>:                              threshold 3 / 2304 samples at stride 1
+[1,0]<stdout>:   features.6.conv1.weight  : transmit 5 / 4608 elements of shape [32, 16, 3, 3]
+[1,0]<stdout>:                              threshold 5 / 4608 samples at stride 1
+[1,0]<stdout>:   features.6.conv2.weight  : transmit 10 / 9216 elements of shape [32, 32, 3, 3]
+[1,0]<stdout>:                              threshold 10 / 9216 samples at stride 1
+[1,0]<stdout>:   features.7.conv1.weight  : transmit 10 / 9216 elements of shape [32, 32, 3, 3]
+[1,0]<stdout>:                              threshold 10 / 9216 samples at stride 1
+[1,0]<stdout>:   features.7.conv2.weight  : transmit 10 / 9216 elements of shape [32, 32, 3, 3]
+[1,0]<stdout>:                              threshold 10 / 9216 samples at stride 1
+[1,0]<stdout>:   features.8.conv1.weight  : transmit 10 / 9216 elements of shape [32, 32, 3, 3]
+[1,0]<stdout>:                              threshold 10 / 9216 samples at stride 1
+[1,0]<stdout>:   features.8.conv2.weight  : transmit 10 / 9216 elements of shape [32, 32, 3, 3]
+[1,0]<stdout>:                              threshold 10 / 9216 samples at stride 1
+[1,0]<stdout>:   features.9.conv1.weight  : transmit 19 / 18432 elements of shape [64, 32, 3, 3]
+[1,0]<stdout>:                              threshold 3 / 2048 samples at stride 9
+[1,0]<stdout>:   features.9.conv2.weight  : transmit 37 / 36864 elements of shape [64, 64, 3, 3]
+[1,0]<stdout>:                              threshold 3 / 2168 samples at stride 17
+[1,0]<stdout>:   features.10.conv1.weight : transmit 37 / 36864 elements of shape [64, 64, 3, 3]
+[1,0]<stdout>:                              threshold 3 / 2168 samples at stride 17
+[1,0]<stdout>:   features.10.conv2.weight : transmit 37 / 36864 elements of shape [64, 64, 3, 3]
+[1,0]<stdout>:                              threshold 3 / 2168 samples at stride 17
+[1,0]<stdout>:   features.11.conv1.weight : transmit 37 / 36864 elements of shape [64, 64, 3, 3]
+[1,0]<stdout>:                              threshold 3 / 2168 samples at stride 17
+[1,0]<stdout>:   features.11.conv2.weight : transmit 37 / 36864 elements of shape [64, 64, 3, 3]
+[1,0]<stdout>:                              threshold 3 / 2168 samples at stride 17
+[1,0]<stdout>:Warning: classifier.weight with 640 elements transmits 1 gradient element
+[1,0]<stdout>:   classifier.weight        : transmit 1 / 640 elements of shape [10, 64]
+[1,0]<stdout>:                              threshold 1 / 640 samples at stride 1
+[1,0]<stdout>:
+[1,0]<stdout>:==> train from scratch
+[1,0]<stdout>:
+[1,0]<stdout>:==> broadcasting paramters and optimizer state
+[1,0]<stdout>:
+[1,0]<stdout>:==> broadcasting optimizer state
+[1,0]<stdout>:[acc/test_top1] = 10.000000
+[1,0]<stdout>:[acc/test_top5] = 50.100000
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 0/200
+[1,0]<stdout>:update compress ratio: 0.31622776601683794
+[1,0]<stdout>:=> initializing dgc compressor
+[1,0]<stdout>:   features.0.weight        : transmit 137 / 432 elements of shape [16, 3, 3, 3]
+[1,0]<stdout>:                              threshold 3 / 7 samples at stride 57
+[1,0]<stdout>:   features.3.conv1.weight  : transmit 729 / 2304 elements of shape [16, 16, 3, 3]
+[1,0]<stdout>:                              threshold 8 / 25 samples at stride 89
+[1,0]<stdout>:   features.3.conv2.weight  : transmit 729 / 2304 elements of shape [16, 16, 3, 3]
+[1,0]<stdout>:                              threshold 8 / 25 samples at stride 89
+[1,0]<stdout>:   features.4.conv1.weight  : transmit 729 / 2304 elements of shape [16, 16, 3, 3]
+[1,0]<stdout>:                              threshold 8 / 25 samples at stride 89
+[1,0]<stdout>:   features.4.conv2.weight  : transmit 729 / 2304 elements of shape [16, 16, 3, 3]
+[1,0]<stdout>:                              threshold 8 / 25 samples at stride 89
+[1,0]<stdout>:   features.5.conv1.weight  : transmit 729 / 2304 elements of shape [16, 16, 3, 3]
+[1,0]<stdout>:                              threshold 8 / 25 samples at stride 89
+[1,0]<stdout>:   features.5.conv2.weight  : transmit 729 / 2304 elements of shape [16, 16, 3, 3]
+[1,0]<stdout>:                              threshold 8 / 25 samples at stride 89
+[1,0]<stdout>:   features.6.conv1.weight  : transmit 1458 / 4608 elements of shape [32, 16, 3, 3]
+[1,0]<stdout>:                              threshold 15 / 47 samples at stride 97
+[1,0]<stdout>:   features.6.conv2.weight  : transmit 2915 / 9216 elements of shape [32, 32, 3, 3]
+[1,0]<stdout>:                              threshold 31 / 95 samples at stride 97
+[1,0]<stdout>:   features.7.conv1.weight  : transmit 2915 / 9216 elements of shape [32, 32, 3, 3]
+[1,0]<stdout>:                              threshold 31 / 95 samples at stride 97
+[1,0]<stdout>:   features.7.conv2.weight  : transmit 2915 / 9216 elements of shape [32, 32, 3, 3]
+[1,0]<stdout>:                              threshold 31 / 95 samples at stride 97
+[1,0]<stdout>:   features.8.conv1.weight  : transmit 2915 / 9216 elements of shape [32, 32, 3, 3]
+[1,0]<stdout>:                              threshold 31 / 95 samples at stride 97
+[1,0]<stdout>:   features.8.conv2.weight  : transmit 2915 / 9216 elements of shape [32, 32, 3, 3]
+[1,0]<stdout>:                              threshold 31 / 95 samples at stride 97
+[1,0]<stdout>:   features.9.conv1.weight  : transmit 5829 / 18432 elements of shape [64, 32, 3, 3]
+[1,0]<stdout>:                              threshold 61 / 190 samples at stride 97
+[1,0]<stdout>:   features.9.conv2.weight  : transmit 11658 / 36864 elements of shape [64, 64, 3, 3]
+[1,0]<stdout>:                              threshold 121 / 380 samples at stride 97
+[1,0]<stdout>:   features.10.conv1.weight : transmit 11658 / 36864 elements of shape [64, 64, 3, 3]
+[1,0]<stdout>:                              threshold 121 / 380 samples at stride 97
+[1,0]<stdout>:   features.10.conv2.weight : transmit 11658 / 36864 elements of shape [64, 64, 3, 3]
+[1,0]<stdout>:                              threshold 121 / 380 samples at stride 97
+[1,0]<stdout>:   features.11.conv1.weight : transmit 11658 / 36864 elements of shape [64, 64, 3, 3]
+[1,0]<stdout>:                              threshold 121 / 380 samples at stride 97
+[1,0]<stdout>:   features.11.conv2.weight : transmit 11658 / 36864 elements of shape [64, 64, 3, 3]
+[1,0]<stdout>:                              threshold 121 / 380 samples at stride 97
+[1,0]<stdout>:   classifier.weight        : transmit 203 / 640 elements of shape [10, 64]
+[1,0]<stdout>:                              threshold 3 / 7 samples at stride 89

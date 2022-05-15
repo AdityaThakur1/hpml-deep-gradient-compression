@@ -1,0 +1,1017 @@
+[1,0]<stdout>:==> training epoch 87/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.61it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 81.25it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 80.360000
+[1,0]<stdout>:[acc/test_top5] = 99.320000
+[1,0]<stdout>:[acc/test_top1_best] = 86.580000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e87-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 88/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.90it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 81.13it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 87.770000
+[1,0]<stdout>:[acc/test_top5] = 99.610000
+[1,0]<stdout>:[acc/test_top1_best] = 87.770000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e88-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 89/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.75it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.21it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 83.310000
+[1,0]<stdout>:[acc/test_top5] = 99.400000
+[1,0]<stdout>:[acc/test_top1_best] = 87.770000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e89-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 90/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.41it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.29it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 84.960000
+[1,0]<stdout>:[acc/test_top5] = 99.320000
+[1,0]<stdout>:[acc/test_top1_best] = 87.770000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e90-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 91/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.58it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.44it/s][1,0]<stdout>::
+[1,0]<stdout>:[acc/test_top1] = 83.890000
+[1,0]<stdout>:[acc/test_top5] = 99.430000
+[1,0]<stdout>:[acc/test_top1_best] = 87.770000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e91-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 92/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.51it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.59it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 87.580000
+[1,0]<stdout>:[acc/test_top5] = 99.510000
+[1,0]<stdout>:[acc/test_top1_best] = 87.770000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e92-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 93/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.39it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.58it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 78.230000
+[1,0]<stdout>:[acc/test_top5] = 98.690000
+[1,0]<stdout>:[acc/test_top1_best] = 87.770000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e93-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 94/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.34it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.62it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 86.360000
+[1,0]<stdout>:[acc/test_top5] = 99.550000
+[1,0]<stdout>:[acc/test_top1_best] = 87.770000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e94-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 95/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.19it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.84it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 86.380000
+[1,0]<stdout>:[acc/test_top5] = 99.470000
+[1,0]<stdout>:[acc/test_top1_best] = 87.770000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e95-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 96/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.68it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 81.78it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 86.820000
+[1,0]<stdout>:[acc/test_top5] = 99.430000
+[1,0]<stdout>:[acc/test_top1_best] = 87.770000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e96-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 97/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.16it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.45it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.370000
+[1,0]<stdout>:[acc/test_top5] = 99.450000
+[1,0]<stdout>:[acc/test_top1_best] = 88.370000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e97-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 98/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.40it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 74.74it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 82.020000
+[1,0]<stdout>:[acc/test_top5] = 99.240000
+[1,0]<stdout>:[acc/test_top1_best] = 88.370000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e98-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 99/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.96it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.77it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 85.300000
+[1,0]<stdout>:[acc/test_top5] = 99.530000
+[1,0]<stdout>:[acc/test_top1_best] = 88.370000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e99-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 100/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.22it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.05it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 87.190000
+[1,0]<stdout>:[acc/test_top5] = 99.540000
+[1,0]<stdout>:[acc/test_top1_best] = 88.370000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e100-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 101/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.36it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.18it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 87.050000
+[1,0]<stdout>:[acc/test_top5] = 99.570000
+[1,0]<stdout>:[acc/test_top1_best] = 88.370000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e101-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 102/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.75it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.52it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 87.160000
+[1,0]<stdout>:[acc/test_top5] = 99.600000
+[1,0]<stdout>:[acc/test_top1_best] = 88.370000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e102-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 103/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.32it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.70it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.170000
+[1,0]<stdout>:[acc/test_top5] = 99.450000
+[1,0]<stdout>:[acc/test_top1_best] = 88.370000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e103-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 104/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.66it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.31it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 86.740000
+[1,0]<stdout>:[acc/test_top5] = 99.400000
+[1,0]<stdout>:[acc/test_top1_best] = 88.370000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e104-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 105/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.10it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.36it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.220000
+[1,0]<stdout>:[acc/test_top5] = 99.490000
+[1,0]<stdout>:[acc/test_top1_best] = 88.370000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e105-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 106/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.09it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.22it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.400000
+[1,0]<stdout>:[acc/test_top5] = 99.650000
+[1,0]<stdout>:[acc/test_top1_best] = 88.400000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e106-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 107/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 46.16it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.96it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 86.270000
+[1,0]<stdout>:[acc/test_top5] = 99.540000
+[1,0]<stdout>:[acc/test_top1_best] = 88.400000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e107-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 108/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 44.87it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.12it/s][1,0]<stdout>::
+[1,0]<stdout>:[acc/test_top1] = 87.780000
+[1,0]<stdout>:[acc/test_top5] = 99.560000
+[1,0]<stdout>:[acc/test_top1_best] = 88.400000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e108-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 109/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.43it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.21it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.670000
+[1,0]<stdout>:[acc/test_top5] = 99.620000
+[1,0]<stdout>:[acc/test_top1_best] = 88.670000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e109-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 110/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.08it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.40it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.040000
+[1,0]<stdout>:[acc/test_top5] = 99.510000
+[1,0]<stdout>:[acc/test_top1_best] = 88.670000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e110-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 111/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 44.48it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 81.99it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 87.900000
+[1,0]<stdout>:[acc/test_top5] = 99.570000
+[1,0]<stdout>:[acc/test_top1_best] = 88.670000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e111-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 112/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.00it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.07it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 85.150000
+[1,0]<stdout>:[acc/test_top5] = 99.400000
+[1,0]<stdout>:[acc/test_top1_best] = 88.670000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e112-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 113/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.17it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.61it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 87.010000
+[1,0]<stdout>:[acc/test_top5] = 99.430000
+[1,0]<stdout>:[acc/test_top1_best] = 88.670000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e113-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 114/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.18it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.06it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 85.100000
+[1,0]<stdout>:[acc/test_top5] = 99.260000
+[1,0]<stdout>:[acc/test_top1_best] = 88.670000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e114-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 115/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.07it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.28it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.470000
+[1,0]<stdout>:[acc/test_top5] = 99.510000
+[1,0]<stdout>:[acc/test_top1_best] = 88.670000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e115-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 116/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.17it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.61it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 86.620000
+[1,0]<stdout>:[acc/test_top5] = 99.670000
+[1,0]<stdout>:[acc/test_top1_best] = 88.670000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e116-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 117/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.39it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.21it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 86.740000
+[1,0]<stdout>:[acc/test_top5] = 99.530000
+[1,0]<stdout>:[acc/test_top1_best] = 88.670000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e117-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 118/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.69it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.25it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.350000
+[1,0]<stdout>:[acc/test_top5] = 99.750000
+[1,0]<stdout>:[acc/test_top1_best] = 89.350000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e118-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 119/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.29it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.64it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.660000
+[1,0]<stdout>:[acc/test_top5] = 99.490000
+[1,0]<stdout>:[acc/test_top1_best] = 89.350000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e119-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 120/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.48it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.66it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.780000
+[1,0]<stdout>:[acc/test_top5] = 99.570000
+[1,0]<stdout>:[acc/test_top1_best] = 89.350000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e120-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 121/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 46.42it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.23it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.080000
+[1,0]<stdout>:[acc/test_top5] = 99.650000
+[1,0]<stdout>:[acc/test_top1_best] = 89.350000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e121-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 122/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 46.31it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.15it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.160000
+[1,0]<stdout>:[acc/test_top5] = 99.560000
+[1,0]<stdout>:[acc/test_top1_best] = 89.350000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e122-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 123/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 46.66it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.34it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 87.870000
+[1,0]<stdout>:[acc/test_top5] = 99.520000
+[1,0]<stdout>:[acc/test_top1_best] = 89.350000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e123-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 124/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.20it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.14it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.510000
+[1,0]<stdout>:[acc/test_top5] = 99.510000
+[1,0]<stdout>:[acc/test_top1_best] = 89.510000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e124-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 125/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.63it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 76.80it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 86.610000
+[1,0]<stdout>:[acc/test_top5] = 99.520000
+[1,0]<stdout>:[acc/test_top1_best] = 89.510000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e125-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 126/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.08it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.00it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.540000
+[1,0]<stdout>:[acc/test_top5] = 99.670000
+[1,0]<stdout>:[acc/test_top1_best] = 89.540000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e126-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 127/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.46it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.24it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.660000
+[1,0]<stdout>:[acc/test_top5] = 99.650000
+[1,0]<stdout>:[acc/test_top1_best] = 89.660000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e127-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 128/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.79it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.54it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.840000
+[1,0]<stdout>:[acc/test_top5] = 99.600000
+[1,0]<stdout>:[acc/test_top1_best] = 89.660000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e128-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 129/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.48it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.43it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.920000
+[1,0]<stdout>:[acc/test_top5] = 99.640000
+[1,0]<stdout>:[acc/test_top1_best] = 89.660000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e129-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 130/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.93it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.79it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.480000
+[1,0]<stdout>:[acc/test_top5] = 99.580000
+[1,0]<stdout>:[acc/test_top1_best] = 89.660000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e130-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 131/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.40it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.69it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.970000
+[1,0]<stdout>:[acc/test_top5] = 99.590000
+[1,0]<stdout>:[acc/test_top1_best] = 89.660000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e131-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 132/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.20it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.13it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.560000
+[1,0]<stdout>:[acc/test_top5] = 99.580000
+[1,0]<stdout>:[acc/test_top1_best] = 89.660000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e132-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 133/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.11it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.80it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.070000
+[1,0]<stdout>:[acc/test_top5] = 99.460000
+[1,0]<stdout>:[acc/test_top1_best] = 89.660000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e133-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 134/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.22it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.20it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.030000
+[1,0]<stdout>:[acc/test_top5] = 99.690000
+[1,0]<stdout>:[acc/test_top1_best] = 90.030000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e134-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 135/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.92it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.99it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.650000
+[1,0]<stdout>:[acc/test_top5] = 99.580000
+[1,0]<stdout>:[acc/test_top1_best] = 90.030000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e135-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 136/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.69it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.57it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.420000
+[1,0]<stdout>:[acc/test_top5] = 99.710000
+[1,0]<stdout>:[acc/test_top1_best] = 90.030000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e136-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 137/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.33it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 76.75it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.460000
+[1,0]<stdout>:[acc/test_top5] = 99.630000
+[1,0]<stdout>:[acc/test_top1_best] = 90.030000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e137-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 138/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 44.86it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.83it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.560000
+[1,0]<stdout>:[acc/test_top5] = 99.530000
+[1,0]<stdout>:[acc/test_top1_best] = 90.030000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e138-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 139/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.51it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.60it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 88.940000
+[1,0]<stdout>:[acc/test_top5] = 99.600000
+[1,0]<stdout>:[acc/test_top1_best] = 90.030000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e139-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 140/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.59it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.07it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.030000
+[1,0]<stdout>:[acc/test_top5] = 99.480000
+[1,0]<stdout>:[acc/test_top1_best] = 90.030000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e140-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 141/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.30it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.62it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.650000
+[1,0]<stdout>:[acc/test_top5] = 99.470000
+[1,0]<stdout>:[acc/test_top1_best] = 90.030000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e141-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 142/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.70it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.78it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.280000
+[1,0]<stdout>:[acc/test_top5] = 99.680000
+[1,0]<stdout>:[acc/test_top1_best] = 90.030000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e142-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 143/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.77it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.44it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.910000
+[1,0]<stdout>:[acc/test_top5] = 99.720000
+[1,0]<stdout>:[acc/test_top1_best] = 90.030000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e143-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 144/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.71it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.33it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.480000
+[1,0]<stdout>:[acc/test_top5] = 99.670000
+[1,0]<stdout>:[acc/test_top1_best] = 90.480000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e144-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 145/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.65it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.04it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.750000
+[1,0]<stdout>:[acc/test_top5] = 99.590000
+[1,0]<stdout>:[acc/test_top1_best] = 90.480000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e145-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 146/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 44.90it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.29it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.680000
+[1,0]<stdout>:[acc/test_top5] = 99.590000
+[1,0]<stdout>:[acc/test_top1_best] = 90.480000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e146-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 147/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 44.96it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 76.19it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.620000
+[1,0]<stdout>:[acc/test_top5] = 99.650000
+[1,0]<stdout>:[acc/test_top1_best] = 90.620000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e147-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 148/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.37it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.92it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.670000
+[1,0]<stdout>:[acc/test_top5] = 99.570000
+[1,0]<stdout>:[acc/test_top1_best] = 90.670000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e148-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 149/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.55it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.31it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.350000
+[1,0]<stdout>:[acc/test_top5] = 99.650000
+[1,0]<stdout>:[acc/test_top1_best] = 90.670000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e149-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 150/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.16it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.05it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 89.850000
+[1,0]<stdout>:[acc/test_top5] = 99.660000
+[1,0]<stdout>:[acc/test_top1_best] = 90.670000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e150-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 151/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.33it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.60it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.320000
+[1,0]<stdout>:[acc/test_top5] = 99.630000
+[1,0]<stdout>:[acc/test_top1_best] = 90.670000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e151-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 152/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.61it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 76.56it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.100000
+[1,0]<stdout>:[acc/test_top5] = 99.650000
+[1,0]<stdout>:[acc/test_top1_best] = 90.670000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e152-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 153/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.52it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.26it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.960000
+[1,0]<stdout>:[acc/test_top5] = 99.550000
+[1,0]<stdout>:[acc/test_top1_best] = 90.960000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e153-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 154/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.33it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.71it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.720000
+[1,0]<stdout>:[acc/test_top5] = 99.550000
+[1,0]<stdout>:[acc/test_top1_best] = 90.960000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e154-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 155/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.66it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.63it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.740000
+[1,0]<stdout>:[acc/test_top5] = 99.510000
+[1,0]<stdout>:[acc/test_top1_best] = 90.960000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e155-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 156/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.23it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 75.03it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.690000
+[1,0]<stdout>:[acc/test_top5] = 99.500000
+[1,0]<stdout>:[acc/test_top1_best] = 90.960000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e156-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 157/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.55it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.43it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.700000
+[1,0]<stdout>:[acc/test_top5] = 99.520000
+[1,0]<stdout>:[acc/test_top1_best] = 90.960000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e157-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 158/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.81it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.05it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.090000
+[1,0]<stdout>:[acc/test_top5] = 99.660000
+[1,0]<stdout>:[acc/test_top1_best] = 91.090000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e158-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 159/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.25it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.20it/s][1,0]<stdout>::
+[1,0]<stdout>:[acc/test_top1] = 91.200000
+[1,0]<stdout>:[acc/test_top5] = 99.710000
+[1,0]<stdout>:[acc/test_top1_best] = 91.200000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e159-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 160/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.21it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.30it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.660000
+[1,0]<stdout>:[acc/test_top5] = 99.640000
+[1,0]<stdout>:[acc/test_top1_best] = 91.200000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e160-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 161/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.27it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 82.00it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.000000
+[1,0]<stdout>:[acc/test_top5] = 99.660000
+[1,0]<stdout>:[acc/test_top1_best] = 91.200000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e161-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 162/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.58it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.83it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.770000
+[1,0]<stdout>:[acc/test_top5] = 99.630000
+[1,0]<stdout>:[acc/test_top1_best] = 91.200000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e162-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 163/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 44.84it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.25it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 90.890000
+[1,0]<stdout>:[acc/test_top5] = 99.650000
+[1,0]<stdout>:[acc/test_top1_best] = 91.200000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e163-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 164/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.12it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.40it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.070000
+[1,0]<stdout>:[acc/test_top5] = 99.670000
+[1,0]<stdout>:[acc/test_top1_best] = 91.200000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e164-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 165/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.45it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 82.26it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.020000
+[1,0]<stdout>:[acc/test_top5] = 99.600000
+[1,0]<stdout>:[acc/test_top1_best] = 91.200000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e165-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 166/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 46.15it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.05it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.350000
+[1,0]<stdout>:[acc/test_top5] = 99.610000
+[1,0]<stdout>:[acc/test_top1_best] = 91.350000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e166-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 167/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 44.63it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.99it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.190000
+[1,0]<stdout>:[acc/test_top5] = 99.610000
+[1,0]<stdout>:[acc/test_top1_best] = 91.350000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e167-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 168/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.47it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.05it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.080000
+[1,0]<stdout>:[acc/test_top5] = 99.520000
+[1,0]<stdout>:[acc/test_top1_best] = 91.350000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e168-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 169/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 46.31it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.46it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.370000
+[1,0]<stdout>:[acc/test_top5] = 99.570000
+[1,0]<stdout>:[acc/test_top1_best] = 91.370000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e169-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 170/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.55it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 81.02it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.400000
+[1,0]<stdout>:[acc/test_top5] = 99.510000
+[1,0]<stdout>:[acc/test_top1_best] = 91.400000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e170-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 171/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 44.31it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.83it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.210000
+[1,0]<stdout>:[acc/test_top5] = 99.570000
+[1,0]<stdout>:[acc/test_top1_best] = 91.400000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e171-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 172/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.65it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.70it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.250000
+[1,0]<stdout>:[acc/test_top5] = 99.500000
+[1,0]<stdout>:[acc/test_top1_best] = 91.400000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e172-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 173/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.63it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.71it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.270000
+[1,0]<stdout>:[acc/test_top5] = 99.510000
+[1,0]<stdout>:[acc/test_top1_best] = 91.400000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e173-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 174/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 44.71it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.16it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.120000
+[1,0]<stdout>:[acc/test_top5] = 99.540000
+[1,0]<stdout>:[acc/test_top1_best] = 91.400000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e174-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 175/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.67it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 76.18it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.450000
+[1,0]<stdout>:[acc/test_top5] = 99.580000
+[1,0]<stdout>:[acc/test_top1_best] = 91.450000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e175-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 176/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.06it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.24it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.350000
+[1,0]<stdout>:[acc/test_top5] = 99.560000
+[1,0]<stdout>:[acc/test_top1_best] = 91.450000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e176-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 177/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.23it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 76.97it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.210000
+[1,0]<stdout>:[acc/test_top5] = 99.550000
+[1,0]<stdout>:[acc/test_top1_best] = 91.450000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e177-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 178/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.43it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.73it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.270000
+[1,0]<stdout>:[acc/test_top5] = 99.510000
+[1,0]<stdout>:[acc/test_top1_best] = 91.450000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e178-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 179/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 44.95it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.59it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.290000
+[1,0]<stdout>:[acc/test_top5] = 99.550000
+[1,0]<stdout>:[acc/test_top1_best] = 91.450000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e179-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 180/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.91it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.13it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.520000
+[1,0]<stdout>:[acc/test_top5] = 99.530000
+[1,0]<stdout>:[acc/test_top1_best] = 91.520000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e180-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 181/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.35it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.91it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.330000
+[1,0]<stdout>:[acc/test_top5] = 99.550000
+[1,0]<stdout>:[acc/test_top1_best] = 91.520000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e181-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 182/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 44.58it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.19it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.370000
+[1,0]<stdout>:[acc/test_top5] = 99.480000
+[1,0]<stdout>:[acc/test_top1_best] = 91.520000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e182-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 183/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.75it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.58it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.460000
+[1,0]<stdout>:[acc/test_top5] = 99.570000
+[1,0]<stdout>:[acc/test_top1_best] = 91.520000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e183-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 184/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.45it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.96it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.300000
+[1,0]<stdout>:[acc/test_top5] = 99.550000
+[1,0]<stdout>:[acc/test_top1_best] = 91.520000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e184-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 185/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.05it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.69it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.530000
+[1,0]<stdout>:[acc/test_top5] = 99.570000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e185-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 186/200[1,0]<stdout>:
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 44.93it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.48it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.490000
+[1,0]<stdout>:[acc/test_top5] = 99.520000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e186-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 187/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.36it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.37it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.440000
+[1,0]<stdout>:[acc/test_top5] = 99.550000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e187-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 188/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.15it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.95it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.510000
+[1,0]<stdout>:[acc/test_top5] = 99.550000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e188-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 189/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.10it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 77.68it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.460000
+[1,0]<stdout>:[acc/test_top5] = 99.600000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e189-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 190/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.51it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.20it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.440000
+[1,0]<stdout>:[acc/test_top5] = 99.530000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e190-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 191/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.19it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.08it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.410000
+[1,0]<stdout>:[acc/test_top5] = 99.540000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e191-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 192/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.51it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.15it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.400000
+[1,0]<stdout>:[acc/test_top5] = 99.520000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e192-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 193/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.50it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.80it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.380000
+[1,0]<stdout>:[acc/test_top5] = 99.540000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e193-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 194/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.35it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 80.10it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.390000
+[1,0]<stdout>:[acc/test_top5] = 99.510000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e194-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 195/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.25it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.96it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.270000
+[1,0]<stdout>:[acc/test_top5] = 99.530000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e195-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 196/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.50it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.54it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.300000
+[1,0]<stdout>:[acc/test_top5] = 99.520000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e196-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 197/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.63it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.96it/s][1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.400000
+[1,0]<stdout>:[acc/test_top5] = 99.530000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e197-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 198/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.65it/s][1,0]<stderr>:
+test: 100% 79/79 [00:01<00:00, 78.81it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.280000
+[1,0]<stdout>:[acc/test_top5] = 99.570000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e198-r0.pth
+[1,0]<stdout>:
+[1,0]<stdout>:==> training epoch 199/200
+[1,0]<stderr>:
+train: 100% 391/391 [00:08<00:00, 45.49it/s][1,0]<stderr>:
+test: 100% 79/79 [00:00<00:00, 79.90it/s] [1,0]<stdout>:
+[1,0]<stdout>:[acc/test_top1] = 91.390000
+[1,0]<stdout>:[acc/test_top5] = 99.570000
+[1,0]<stdout>:[acc/test_top1_best] = 91.530000
+[1,0]<stdout>:[save_path] = runs/[cifar.resnet20+dgc.[wm5+fp16+int32]].np1/checkpoints/e199-r0.pth
+[1,0]<stderr>:
