@@ -63,6 +63,5 @@ horovodrun -np 1 python train.py --configs configs/cifar/resnet20.py configs/dgc
 | Model             |  Epochs to converge(85%) | Time to Accuracy (85%) | Test Accuracy (After 200 Epochs) | Train Accuracy (After 200 epochs) | Compression Ratio |  Gradient Update Size |
 | ----------------- | ----------- | ----------- |----------- |----------- |----------- |----------- |
 | Baseline: ResNet-20 (No Compression)| 78 Epochs  | 11.5 minutes|88.68% | 95.4% | NA |1 MB |
-
-| ResNet18           | 143 Epochs |  21 minutes | 85.47% |92.5% | 0.001 |1 KB |
+| ResNet-20 With Gradient Compression  | 143 Epochs |  21 minutes | 85.47% |92.5% | 0.001 |1 KB |
 
