@@ -1,5 +1,4 @@
 # Gradient Compression with Delayed Gradient Updates
-*Authors:* Aditya Thakur (AT4932) , Swapan Jain (SJ2594)
 
 ## Overview
 
@@ -22,18 +21,7 @@ The code is built with following libraries (see [requirements.txt](requirements.
 
 The core code to implement Gradient Compression is in [dgc/compression.py](dgc/compression.py) and [dgc/memory.py](dgc/memory.py).
 
-- Gradient Accumulation and Momentum Correction
-```python
-    mmt = self.momentums[name]
-    vec = self.velocities[name]
-    if self.nesterov:
-        mmt.add_(grad).mul_(self.momentum)
-        vec.add_(mmt).add_(grad)
-    else:
-        mmt.mul_(self.momentum).add_(grad)
-        vec.add_(mmt)
-    return vec
-```
+
 
 - Sparsification
 ```python
@@ -67,25 +55,4 @@ mpirun -np [K*N] -H server0:N,server1:N,...,serverK:N \
     -x LD_LIBRARY_PATH -x PATH -mca pml ob1 \
     -mca btl ^openib -mca btl_tcp_if_exclude docker0,lo \
     python train.py --configs [config files]
-```
-e.g., resnet-50 on ImageNet dataset with 4 machines with 8 GPUs each,
-```bash
-# fp32 values, int64 indices, no warmup
-mpirun -np 32 -H server0:8,server1:8,server2:8,server3:8 \
-    -bind-to none -map-by slot -x NCCL_DEBUG=INFO \
-    -x LD_LIBRARY_PATH -x PATH -mca pml ob1 \
-    -mca btl ^openib -mca btl_tcp_if_exclude docker0,lo \
-    python train.py --configs configs/imagenet/resnet50.py \
-    configs/dgc/wm0.py
-```
-For more information on horovodrun, please read horovod documentations.
 
-You can modify/add new config files under [configs](configs) to change training settings. You can also modify some trivial configs in the command:
-```bash
-python train.py --configs [config files] --[config name] [config value] --suffix [suffix of experiment directory]
-```
-e.g.,
-```bash
-horovodrun -np 8 python train.py --configs configs/cifar/resnet20.py \
-    configs/dgc/wm5.py --configs.train.num_epochs 500 --suffix .e500
-```
