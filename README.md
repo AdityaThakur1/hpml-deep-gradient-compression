@@ -41,6 +41,8 @@ The core code to implement Gradient Compression is in [dgc/compression.py](dgc/c
     mask = torch.ge(importance, threshold)
     indices = mask.nonzero().view(-1)
 ```
+The code is adopted from The code has been adopted from https://github.com/synxlin/deep-gradient-compression
+
 
 ## Training
 We use [Horovod](https://github.com/horovod/horovod) to run distributed training:
