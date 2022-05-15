@@ -210,7 +210,8 @@ def main():
 
         if configs.train.dgc:
             compress_ratio_e = compression.warmup_compress_ratio(current_epoch)
-            writer.add_scalar('Compression/c_ratio_epoch', compress_ratio_e, current_epoch)
+            if writer is not None:
+                writer.add_scalar('Compression/compression_ratio', compress_ratio_e, current_epoch)
 
         train(model=model, loader=loaders['train'],
               device=configs.device, epoch=current_epoch, 
@@ -283,7 +284,8 @@ def train(model, loader, device, epoch, sampler, criterion, optimizer,
                              num_steps_per_epoch=num_steps_per_epoch,
                              warmup_lr_epochs=warmup_lr_epochs,
                              schedule_lr_per_epoch=schedule_lr_per_epoch)
-
+        if writer is not None:
+            writer.add_scalar('LR/learning_rate_schedule', param_group['lr'], epoch)
         inputs = inputs.to(device, non_blocking=True)
         targets = targets.to(device, non_blocking=True)
         optimizer.zero_grad()
