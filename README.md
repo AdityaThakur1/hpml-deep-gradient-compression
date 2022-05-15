@@ -17,6 +17,35 @@ The code is built with following libraries (see [requirements.txt](requirements.
 - [tqdm](https://github.com/tqdm/tqdm)
 - [openmpi](https://www.open-mpi.org/software/ompi/) >= 4.0
 
+## Code
+
+The core code to implement Gradient Compression is in [dgc/compression.py](dgc/compression.py) and [dgc/memory.py](dgc/memory.py).
+
+- Gradient Accumulation and Momentum Correction
+```python
+    mmt = self.momentums[name]
+    vec = self.velocities[name]
+    if self.nesterov:
+        mmt.add_(grad).mul_(self.momentum)
+        vec.add_(mmt).add_(grad)
+    else:
+        mmt.mul_(self.momentum).add_(grad)
+        vec.add_(mmt)
+    return vec
+```
+
+- Sparsification
+```python
+    importance = tensor.abs()
+    # sampling
+    sample_start = random.randint(0, sample_stride - 1)
+    samples = importance[sample_start::sample_stride]
+    # thresholding
+    threshold = torch.min(torch.topk(samples, top_k_samples, 0, largest=True, sorted=False)[0])
+    mask = torch.ge(importance, threshold)
+    indices = mask.nonzero().view(-1)
+```
+
 ## Training
 We use [Horovod](https://github.com/horovod/horovod) to run distributed training:
 - run on a machine with *N* GPUs,
