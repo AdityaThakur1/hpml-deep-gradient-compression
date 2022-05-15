@@ -1,6 +1,13 @@
 # Gradient Compression with Delayed Gradient Updates
 
 ## Overview
+- Gradient communication in distributed training accounts for significant bandwidth and limits scalability.
+- Empirically it has been found that 99.9% gradient update in Distributed SGD are redundant[1].
+- Gradient Compression can reduce latency in communication to a great extent  by compressing gradients.
+- Here, we validate the above by  training a ResNet20 Model on a single GPU. We update the gradients only if they are larger than the threshold.
+- We then plot our results of the new model with the baseline ResNet Model.
+- We achieve a compression factor of 0.001 with accuracy loss of 3.21%.
+
 
 ## Content
 - [Prerequisites](#prerequisites)
