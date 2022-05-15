@@ -2,6 +2,21 @@
 
 ## Overview
 
+## Content
+- [Prerequisites](#prerequisites)
+- [Code](#code)
+- [Training](#training)
+
+## Prerequisites
+The code is built with following libraries (see [requirements.txt](requirements.txt)):
+- Python >= 3.7
+- [PyTorch](https://github.com/pytorch/pytorch) >= 1.5
+- [Horovod](https://github.com/horovod/horovod) >= 0.19.4
+- [numpy](https://github.com/numpy/numpy)
+- [tensorboardX](https://github.com/lanpa/tensorboardX) >= 1.2
+- [tqdm](https://github.com/tqdm/tqdm)
+- [openmpi](https://www.open-mpi.org/software/ompi/) >= 4.0
+
 ## Training
 We use [Horovod](https://github.com/horovod/horovod) to run distributed training:
 - run on a machine with *N* GPUs,
